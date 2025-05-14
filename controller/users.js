@@ -6,7 +6,7 @@ const {User} = db ;
   const postdata =  async (req,res) => {
     const {name,age} = req.body ; 
     try{
-        const newcreate = await User.create({name,age } )
+        const newcreate =  await User.create({name,age })
 
         res.status(200).json("create data is created");        
        }
