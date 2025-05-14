@@ -1,0 +1,103 @@
+.HEAD {
+    display: flex;
+    gap: 70px;
+    width: 30rem;
+    padding: 20px 10px;
+    margin-left: 505px;
+
+  }
+  .HEAD a {
+    text-decoration: none;
+    color: black;
+  }
+  .HEAD a:hover{
+    color: red;
+  }
+  .search {
+    border: 1px solid black;
+    padding: 5px;
+    height: 30px;
+    margin-top: -50px;
+    border-radius: 25px;
+    margin-left: 1000px;
+    width: 300px;
+  }
+  
+  .search input {
+    border: 1px;
+    outline: none;
+    height: 30px;
+    border-radius: 25px;
+    width: 285px;
+    font-size: 18px;
+    background:  #78dabe;
+  }
+  
+  /* Shopping Cart Icon */
+  .cartIcon {
+    margin-top: 12px;
+    font-size: 24px;
+    margin-right: 15px;
+    position: relative;
+  }
+  
+  /* Cart Item Count */
+  span {
+    background: rgb(1, 14, 18);
+    height: 20px;
+    margin-left: 769px;
+    margin-top: -40px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    top: -12px;
+  }
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to left, #43cea2,#e0f2df,#2bd8a7);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+.total{
+    margin-left: 600px;
+    margin-top: 150px;
+    height: 20px;
+    align-items: center;
+    display:grid;
+
+}
+#h3{
+    margin-bottom: 10px;
+
+}
+
+.total {
+    width: 20rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border:none;
+    outline:none;
+
+    background: linear-gradient(135deg, #51f4ee, #eaedf1);
+    box-shadow: 19px 30px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;}
+.h1{
+    margin-left: 650px;
+    margin-top: 300px;
+    height: 20px;
+    align-items: center;
+    display:grid;
+
+    }
+
